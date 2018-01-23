@@ -1,0 +1,74 @@
+/* Site resets */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {text-decoration: none; color: inherit; transition: 0.5s all; border-bottom: 1px solid rgba(0,0,0,0.6);}
+a:hover {color: #FF1493; border-bottom: 1px solid #FF1493;}
+body{background-color: #fff; font-size: 16px; font-family: Source Sans Pro; letter-spacing: 0.96px;}
+.container {width: 90%; margin: 0 auto;}
+@media only screen and (min-width : 480px) {}
+@media only screen and (min-width : 768px) {
+	body{font-size: 18px;}
+}
+@media only screen and (min-width : 992px) {}
+@media only screen and (min-width : 1200px) {}
+
+/* Welcome message */ 
+
+.welcome-message-header {font-size: 2rem; margin-top: 200px;}
+.welcome-message-text {font-size: 1.5rem; color: rgba(0,0,0,0.6); font-weight: 300; margin-top: 10px; margin-bottom: 100px;}
+
+@media only screen and (min-width : 480px) {}
+@media only screen and (min-width : 768px) {
+    .welcome-message {max-width: 75%;}
+    .welcome-message-header {font-size: 3rem;}
+}
+@media only screen and (min-width : 992px) {}
+@media only screen and (min-width : 1200px) {}
+
+/* Project section */ 
+
+.project-section-heading {font-size: 1.25rem; color: rgba(0,0,0,0.6); padding-bottom: 10px; border-bottom: 1px solid rgba(0,0,0,0.6);}
+
