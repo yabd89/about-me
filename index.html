@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
     <title>Yasmine Abdulhamid portfolio</title>
@@ -11,20 +12,18 @@
 <body>
     <div class="container">
         <div class="logo">
-            <img src="logo.png">
+            <img src="logo.png" class="flipInX animated">
         </div>
-        <div class="welcome-message">
+        <div class="welcome-message fadeIn animated">
             <h1 class="welcome-message-header">Hello. I'm Yasmine. I'm a front end developer, passionate educator, and Detroit lover.</h1>
             <p class="welcome-message-text">I work @<a href="https://grandcircus.co">Grand Circus Detroit</a>.</p>
         </div>
         <div class="project-section">
             <h1 class="project-section-heading">Projects</h1>
-            <div class="project-section-container">
+            <div class="project-section-container fadeIn animated">
                 <a href="narrativesofpain.org" class="project-section-image-container">
                     <h2 class="project-section-heading">Narratives of Pain</h2>
-                    <div class="project-section-image-wrapper">
-                        <img class="project-section-image" src="https://media.giphy.com/media/26wkObCEzEg7WPNte/giphy.gif">
-                    </div>
+                    <img class="project-section-image" src="https://media.giphy.com/media/26wkObCEzEg7WPNte/giphy.gif">
                 </a>
                 <a href="brasscraft.com" class="project-section-image-container">
                     <h2 class="project-section-heading">Brasscraft</h2>
@@ -41,5 +40,7 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
