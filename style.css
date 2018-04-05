@@ -47,7 +47,7 @@ table {
 a {text-decoration: none; color: inherit; transition: 0.5s all; border-bottom: 1px solid rgba(0,0,0,0.6);}
 a:hover {color: #FF1493; border-bottom: 1px solid #FF1493;}
 body{background-color: #fff; font-size: 16px; font-family: Source Sans Pro; letter-spacing: 0.96px;}
-.container {width: 80%; margin: 0 auto;}
+.container {width: 80%; margin: 0 auto; max-width: 1300px;}
 @media only screen and (min-width : 480px) {}
 @media only screen and (min-width : 768px) {
 	body{font-size: 18px;}
@@ -75,7 +75,7 @@ body{background-color: #fff; font-size: 16px; font-family: Source Sans Pro; lett
 .project-section a {border-bottom: none;}
 .project-section-heading {font-size: 1.25rem; color: rgba(0,0,0,0.6); padding-bottom: 10px; font-weight: 300;}
 .project-section-container {display: flex; flex-direction: column; margin: 20px 0 100px;}
-.project-section-image {width: 100%; border: 1px solid rgba(0,0,0,0.6); border-radius: 5px; height: 200px;}
+.project-section-image {width: 100%; border: 1px solid rgba(0,0,0,0.6); border-radius: 5px; height: 200px; max-width: 283px;}
 .project-section-image-container{transition: 1s all; margin-top: 20px;}
 .project-section-image-container:hover .project-section-heading {color: #FF1493;}
 
