@@ -88,7 +88,8 @@ body{background-color: #fff; font-size: 16px; font-family: Source Sans Pro; lett
 }
 @media only screen and (min-width : 768px) {
 	.project-section-container{flex-direction: row; flex-wrap: wrap; justify-content: space-between; margin: 20px 0 150px;}
-    .project-section-image-container {width: 48%; height: 350px;}
+	.project-section-image-container {width: 48%; height: 350px;}
+	.project-section-image {height: 150px;}
 }
 @media only screen and (min-width : 992px) {}
 @media only screen and (min-width : 1200px) {
