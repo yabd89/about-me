@@ -93,7 +93,7 @@ body{background-color: #fff; font-size: 16px; font-family: Source Sans Pro; lett
 }
 @media only screen and (min-width : 992px) {}
 @media only screen and (min-width : 1200px) {
-	 .project-section-image-container {width: 23%; height: 150px; margin: 0 20px;}
+	 .project-section-image-container {width: 23%; margin: 0 20px;}
 	 .project-section-container{justify-content: inherit;}
 }
 
